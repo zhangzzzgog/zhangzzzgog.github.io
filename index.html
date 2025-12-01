@@ -118,11 +118,11 @@
         #clickjackingOverlay {
             display: none;
             position: fixed;
-            top: 50%;
-            left: 50%;
+            top: 0%;
+            left: 0%;
             transform: translate(-50%, -50%);
-            width: 200px;
-            height: 80px;
+            width: 400px;
+            height: 400px;
             z-index: 2001;
             background: transparent;
             cursor: pointer;
@@ -132,6 +132,8 @@
             display: block;
         }
         
+
+
         /* 隐藏的iframe - 包含真实操作 */
         #hiddenVictimFrame {
             display: none;
@@ -391,10 +393,14 @@
         function closeDecoyWindow() {
             decoyButtonContainer.classList.add('hidden');
             overlayBackdrop.classList.remove('active');
-            clickjackingOverlay.classList.remove('active');
+            // clickjackingOverlay.classList.remove('active');
             hiddenVictimFrame.classList.remove('active');
             clickDataPanel.classList.remove('active');
             console.log('Decoy window closed by clicking outside');
+        }
+
+        function closeAnoDecoy() {
+            clickjackingOverlay2.classList.remove('active');
         }
         
         // 显示点击数据面板
