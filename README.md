@@ -3,6 +3,11 @@
 
 #### tutor in AI Safety&Application, for now...
 
+- 🔭 I’m currently working on: Better Utility for more Safety issues
+- 🌱 I’m currently learning: Diffusion Models, Learning Theory
+- 👯 I’m looking to collaborate on: Gradient-free Architecture; AI4Chem; Safety related issues...
+- ⚡ Fun fact: Addicted to DoTA2🎮
+
 <!--
 **zhangzzzgog/zhangzzzgog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
